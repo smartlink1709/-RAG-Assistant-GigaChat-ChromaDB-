@@ -1,0 +1,21 @@
+2026-04-15 13:56:35,943 | INFO | Инициализация системы начата
+2026-04-15 13:56:35,946 | INFO | Инициализация кеша
+2026-04-15 13:56:35,956 | INFO | Инициализация векторного хранилища
+2026-04-15 13:56:36,296 | INFO | Документов в базе: 9
+2026-04-15 13:56:36,296 | INFO | Инициализация RAG ассистента
+2026-04-15 13:56:36,298 | INFO | Система успешно инициализирована
+2026-04-15 14:24:10,080 | INFO | Запущен интерактивный режим
+2026-04-15 14:24:41,892 | INFO | User input: где применяют rag?
+2026-04-15 14:24:41,893 | INFO | Вопрос: где применяют rag?
+2026-04-15 14:24:42,312 | INFO | HTTP Request: POST https://ngw.devices.sberbank.ru:9443/api/v2/oauth "HTTP/1.1 200 OK"
+2026-04-15 14:24:42,555 | INFO | HTTP Request: POST https://gigachat.devices.sberbank.ru/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-04-15 14:24:42,714 | INFO | HTTP Request: POST https://ngw.devices.sberbank.ru:9443/api/v2/oauth "HTTP/1.1 200 OK"
+2026-04-15 14:24:44,617 | INFO | HTTP Request: POST https://gigachat.devices.sberbank.ru/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 14:24:44,623 | INFO | Ответ сгенерирован за 2.73 сек
+2026-04-15 14:24:44,647 | INFO | Ответ отправлен | Время: 2.75 сек
+2026-04-15 14:25:38,335 | INFO | User input: как интегрировать rag в ассистента?
+2026-04-15 14:25:38,336 | INFO | Вопрос: как интегрировать rag в ассистента?
+2026-04-15 14:25:38,530 | INFO | HTTP Request: POST https://gigachat.devices.sberbank.ru/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-04-15 14:25:41,815 | INFO | HTTP Request: POST https://gigachat.devices.sberbank.ru/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 14:25:41,817 | INFO | Ответ сгенерирован за 3.48 сек
+2026-04-15 14:25:41,828 | INFO | Ответ отправлен | Время: 3.49 сек
